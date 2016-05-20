@@ -12,6 +12,15 @@
 		9F8CE8A01CEF686F00BD5AEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F8CE89E1CEF686F00BD5AEF /* Main.storyboard */; };
 		9F8CE8A21CEF686F00BD5AEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F8CE8A11CEF686F00BD5AEF /* Assets.xcassets */; };
 		9F8CE8A51CEF686F00BD5AEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F8CE8A31CEF686F00BD5AEF /* LaunchScreen.storyboard */; };
+		9F8CE8AD1CEF70CB00BD5AEF /* CreateAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8CE8AC1CEF70CB00BD5AEF /* CreateAccountRootViewController.swift */; };
+		9F8CE8AF1CEF70DE00BD5AEF /* SignInRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8CE8AE1CEF70DE00BD5AEF /* SignInRootViewController.swift */; };
+		9F8CE8B11CEF754B00BD5AEF /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8CE8B01CEF754B00BD5AEF /* CreateAccountViewController.swift */; };
+		9F8CE8B31CEF755400BD5AEF /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8CE8B21CEF755400BD5AEF /* SignInViewController.swift */; };
+		9F8CE8B51CEF78AE00BD5AEF /* TermsOfServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8CE8B41CEF78AE00BD5AEF /* TermsOfServiceViewController.swift */; };
+		9F8CE8B71CEF7DF700BD5AEF /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8CE8B61CEF7DF700BD5AEF /* SettingsViewController.swift */; };
+		9F8CE8B91CEF87F600BD5AEF /* ExistingPhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8CE8B81CEF87F600BD5AEF /* ExistingPhotosViewController.swift */; };
+		9F8CE8BD1CEF975E00BD5AEF /* GettingStartedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8CE8BC1CEF975E00BD5AEF /* GettingStartedViewController.swift */; };
+		9F8CE8C11CEF9D6500BD5AEF /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8CE8C01CEF9D6500BD5AEF /* WelcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +31,15 @@
 		9F8CE8A11CEF686F00BD5AEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F8CE8A41CEF686F00BD5AEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F8CE8A61CEF686F00BD5AEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F8CE8AC1CEF70CB00BD5AEF /* CreateAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountRootViewController.swift; sourceTree = "<group>"; };
+		9F8CE8AE1CEF70DE00BD5AEF /* SignInRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRootViewController.swift; sourceTree = "<group>"; };
+		9F8CE8B01CEF754B00BD5AEF /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		9F8CE8B21CEF755400BD5AEF /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		9F8CE8B41CEF78AE00BD5AEF /* TermsOfServiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsOfServiceViewController.swift; sourceTree = "<group>"; };
+		9F8CE8B61CEF7DF700BD5AEF /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		9F8CE8B81CEF87F600BD5AEF /* ExistingPhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExistingPhotosViewController.swift; sourceTree = "<group>"; };
+		9F8CE8BC1CEF975E00BD5AEF /* GettingStartedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GettingStartedViewController.swift; path = ../GettingStartedViewController.swift; sourceTree = "<group>"; };
+		9F8CE8C01CEF9D6500BD5AEF /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WelcomeViewController.swift; path = ../WelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +72,18 @@
 		9F8CE8991CEF686F00BD5AEF /* Dropbox */ = {
 			isa = PBXGroup;
 			children = (
+				9F8CE8C01CEF9D6500BD5AEF /* WelcomeViewController.swift */,
+				9F8CE8BC1CEF975E00BD5AEF /* GettingStartedViewController.swift */,
 				9F8CE89A1CEF686F00BD5AEF /* AppDelegate.swift */,
 				9F8CE89C1CEF686F00BD5AEF /* ViewController.swift */,
 				9F8CE89E1CEF686F00BD5AEF /* Main.storyboard */,
+				9F8CE8B81CEF87F600BD5AEF /* ExistingPhotosViewController.swift */,
+				9F8CE8B61CEF7DF700BD5AEF /* SettingsViewController.swift */,
+				9F8CE8B41CEF78AE00BD5AEF /* TermsOfServiceViewController.swift */,
+				9F8CE8B01CEF754B00BD5AEF /* CreateAccountViewController.swift */,
+				9F8CE8B21CEF755400BD5AEF /* SignInViewController.swift */,
+				9F8CE8AC1CEF70CB00BD5AEF /* CreateAccountRootViewController.swift */,
+				9F8CE8AE1CEF70DE00BD5AEF /* SignInRootViewController.swift */,
 				9F8CE8A11CEF686F00BD5AEF /* Assets.xcassets */,
 				9F8CE8A31CEF686F00BD5AEF /* LaunchScreen.storyboard */,
 				9F8CE8A61CEF686F00BD5AEF /* Info.plist */,
@@ -136,8 +163,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F8CE8B11CEF754B00BD5AEF /* CreateAccountViewController.swift in Sources */,
+				9F8CE8AF1CEF70DE00BD5AEF /* SignInRootViewController.swift in Sources */,
+				9F8CE8C11CEF9D6500BD5AEF /* WelcomeViewController.swift in Sources */,
+				9F8CE8B31CEF755400BD5AEF /* SignInViewController.swift in Sources */,
+				9F8CE8B91CEF87F600BD5AEF /* ExistingPhotosViewController.swift in Sources */,
+				9F8CE8AD1CEF70CB00BD5AEF /* CreateAccountRootViewController.swift in Sources */,
+				9F8CE8B51CEF78AE00BD5AEF /* TermsOfServiceViewController.swift in Sources */,
 				9F8CE89D1CEF686F00BD5AEF /* ViewController.swift in Sources */,
+				9F8CE8BD1CEF975E00BD5AEF /* GettingStartedViewController.swift in Sources */,
 				9F8CE89B1CEF686F00BD5AEF /* AppDelegate.swift in Sources */,
+				9F8CE8B71CEF7DF700BD5AEF /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
