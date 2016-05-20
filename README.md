@@ -43,7 +43,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+You'll notice in the gif above, it gets a bit weird when entering text to create an account. I wasn't sure how to get the password strength to work properly when entering a password, so I ended up just leaving it as a button to move forward to the filled in screen.
 
 Navigating xcode was probably the biggest challenge. It took me forever to get the welcome screens to scroll, until I figured out that all I needed to do was click the red arrows in the ScrollView settings.
 
