@@ -11,6 +11,42 @@ import UIKit
 class CreateAccountViewController: UIViewController {
 
     
+    @IBOutlet weak var createButton: UIButton!
+    @IBOutlet weak var passwordTextField: UITextField!
+    
+    let weakImage = UIImage(named: "signup_1")
+    let sosoImage = UIImage(named: "signup_2")
+    let goodImage = UIImage(named: "signup_3")
+    let greatImage = UIImage(named: "signup_4")
+    
+    @IBOutlet weak var strengthImage: UIImageView!
+    
+    @IBAction func passwordTextField(sender: UITextField) {
+        let charCount = passwordTextField.text?.characters.count
+        
+        if charCount < 6 {
+            print("weak password")
+            strengthImage.image = weakImage
+            createButton.enabled = false
+            // Set image to weak image
+        } else if charCount < 8 {
+            print("soso password")
+            strengthImage.image = sosoImage
+            createButton.enabled = false
+            // set image to medium image
+        } else if charCount < 12 {
+            print("good password")
+            strengthImage.image = goodImage
+            createButton.enabled = false
+            // set image to medium image
+        } else {
+            print("great password")
+            strengthImage.image = greatImage
+            createButton.enabled = true
+            // set image to strong image
+        }
+    }
+    
     @IBAction func didPressBackButton(sender: AnyObject) {
         navigationController!.popViewControllerAnimated(true)
 
@@ -18,6 +54,9 @@ class CreateAccountViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        createButton.enabled = false
+
 
         // Do any additional setup after loading the view.
     }
